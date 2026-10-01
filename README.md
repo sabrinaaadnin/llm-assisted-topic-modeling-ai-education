@@ -213,6 +213,43 @@ These measures were used to assess the quality of the final topic keywords again
 
 ---
 
+## Results
+
+### Final Topics
+
+After running the LLM-based topic discovery process for 10 iterations and comparing the generated topics using Jaccard similarity, the recurring topic groups were consolidated into three final topics.
+
+| Topic | Label | Representative Keywords |
+|---|---|---|
+| Topic 1 | Personalisasi dan efisiensi pembelajaran | belajar, efisiensi, kemajuan, memantau, menganalisis, pengalaman, personal, siswa, menghemat, global |
+| Topic 2 | Debat AI vs peran guru | guru, menggantikan, peran, empati, emosi, simpati, AI, pendidik, sosial, karakter |
+| Topic 3 | Otomatisasi tugas administratif | belajar, efisiensi, kemajuan, memantau, menganalisis, pengalaman, personal, administratif, lesson |
+
+The final topics represent recurring themes identified across the repeated LLM generations.
+
+### Topic Evaluation
+
+The final topic representation was evaluated using coherence, topic uniqueness, document coverage, and factuality.
+
+| Metric | Score |
+|---|---:|
+| C_v Coherence | 0.6783 |
+| Topic Uniqueness | 1.0000 |
+| Document Coverage | 0.9890 |
+| Factuality | 1.0000 |
+
+The results indicate that the final topic keywords have strong coherence and high coverage of the processed corpus, while all selected topic keywords were present in the corpus.
+
+### Topic Distribution
+
+The final topic catalog was subsequently used to classify 2,000 comments.
+
+Debat AI vs Peran Guru              66.4% █████████████████████████████████
+Personalisasi & Efisiensi           25.8% █████████████
+Otomatisasi Tugas Administratif      7.9% ████
+
+The largest group of comments focused on the relationship between AI and the role of teachers, followed by personalization and learning efficiency, while administrative task automation represented a smaller proportion of the dataset.
+
 ## Limitations
 
 - LLM-generated topics can vary between runs.
@@ -236,24 +273,6 @@ Potential extensions include:
 
 ---
 
-## Related Work
-
-This project is separate from my master's thesis.
-
-My master's thesis focused on **HDBSCAN hyperparameter optimization within BERTopic for Indonesian short-text topic modeling**.
-
-This project focuses on **LLM-assisted topic discovery and topic stability across repeated LLM generations** for an AI in Education research project.
-
-| Project | Main Approach |
-|---|---|
-| AI in Education Project | LDA baseline + GPT-based topic discovery + iterative similarity analysis |
-| Master's Thesis | BERTopic + HDBSCAN hyperparameter optimization |
-
----
-
 ## Author
 
 **Sabrina Adnin Kamila**  
-MSc in Statistics and Data Science — IPB University
-
-**Interests:** Data Science, Machine Learning, NLP, LLM, Topic Modeling
