@@ -245,7 +245,9 @@ The results indicate that the final topic keywords have strong coherence and hig
 The final topic catalog was subsequently used to classify 2,000 comments.
 
 Debat AI vs Peran Guru              66.4% █████████████████████████████████
+
 Personalisasi & Efisiensi           25.8% █████████████
+
 Otomatisasi Tugas Administratif      7.9% ████
 
 The largest group of comments focused on the relationship between AI and the role of teachers, followed by personalization and learning efficiency, while administrative task automation represented a smaller proportion of the dataset.
