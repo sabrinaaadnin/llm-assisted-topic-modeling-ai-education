@@ -1,0 +1,8 @@
+openai
+pandas
+numpy
+nltk
+gensim
+tqdm
+openpyxl
+xlsxwriter
